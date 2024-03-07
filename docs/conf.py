@@ -4,8 +4,11 @@
 Configuration file for the Sphinx documentation builder.
 """
 
+import os
+
 project = "makeshift"
 copyright = "Copyright (c) 2024 Makeshift Team"
+version = os.environ.get("VERSION", "unknown")
 
 extensions = [
     "sphinx.ext.todo",
