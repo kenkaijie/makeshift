@@ -1,0 +1,10 @@
+# 
+# Base libraries for documentation.
+#
+# SPDX-FileCopyrightText: 2024 Makeshift Team <tim.rose@acm.org>
+# SPDX-License-Identifier: MIT
+#
+
+sphinx
+sphinx_rtd_theme
+myst-parser
